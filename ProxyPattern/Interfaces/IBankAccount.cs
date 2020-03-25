@@ -6,6 +6,6 @@ namespace ProxyPattern.Interfaces
 {
     public interface IBankAccount
     {
-        public bool WithdrawMoney(decimal amount);
+        bool WithdrawMoney(decimal amount);
     }
 }
